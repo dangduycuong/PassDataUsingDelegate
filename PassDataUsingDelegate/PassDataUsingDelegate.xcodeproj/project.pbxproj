@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE4F4FB325EF336700569838 /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F4FB225EF336700569838 /* EndViewController.swift */; };
+		CE4F4FB525EF33E900569838 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F4FB425EF33E900569838 /* Storyboard.swift */; };
 		CEAE5A462266BFA5003815DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE5A452266BFA5003815DF /* AppDelegate.swift */; };
 		CEAE5A482266BFA5003815DF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE5A472266BFA5003815DF /* FirstViewController.swift */; };
 		CEAE5A4B2266BFA5003815DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAE5A492266BFA5003815DF /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE4F4FB225EF336700569838 /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+		CE4F4FB425EF33E900569838 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		CEAE5A422266BFA5003815DF /* PassDataUsingDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassDataUsingDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAE5A452266BFA5003815DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEAE5A472266BFA5003815DF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -82,8 +86,10 @@
 			isa = PBXGroup;
 			children = (
 				CEAE5A452266BFA5003815DF /* AppDelegate.swift */,
+				CE4F4FB425EF33E900569838 /* Storyboard.swift */,
 				CEAE5A472266BFA5003815DF /* FirstViewController.swift */,
 				CEAE5A652266C025003815DF /* SecondViewController.swift */,
+				CE4F4FB225EF336700569838 /* EndViewController.swift */,
 				CEAE5A492266BFA5003815DF /* Main.storyboard */,
 				CEAE5A672266C0D0003815DF /* UIView+Extention.swift */,
 				CEAE5A4C2266BFA8003815DF /* Assets.xcassets */,
@@ -204,6 +210,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEAE5A662266C025003815DF /* SecondViewController.swift in Sources */,
+				CE4F4FB325EF336700569838 /* EndViewController.swift in Sources */,
+				CE4F4FB525EF33E900569838 /* Storyboard.swift in Sources */,
 				CEAE5A482266BFA5003815DF /* FirstViewController.swift in Sources */,
 				CEAE5A462266BFA5003815DF /* AppDelegate.swift in Sources */,
 				CEAE5A682266C0D0003815DF /* UIView+Extention.swift in Sources */,

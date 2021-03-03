@@ -13,7 +13,14 @@ class FirstViewController: UIViewController, SecondViewControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let navigationBar = navigationController?.navigationBar
+        navigationBar?.tintColor = .white
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        title = "FirstVC"
     }
 
     func sendDataToFirstVC(data: String?) {
@@ -22,6 +29,7 @@ class FirstViewController: UIViewController, SecondViewControllerDelegate {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "getDataSegue" {
+            title = ""
             let secondVC: SecondViewController = segue.destination as! SecondViewController
             secondVC.delegate = self
         }
